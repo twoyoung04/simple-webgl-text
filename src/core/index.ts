@@ -375,7 +375,7 @@ function main(data: number[]) {
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
 }
 
-opentype.load('static/font/yon3.ttf', (error, font) => {
+opentype.load('static/font/yon.ttf', (error, font) => {
   let text = '等我';
   let vertices = handleFont(font, text);
   // vertices = vertices.map((v, index) => index % 4 < 2 ? v / 2 : v)
